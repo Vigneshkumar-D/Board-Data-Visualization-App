@@ -66,7 +66,6 @@
     .bi-menu-con{
     display: block;
     font-size: 20px;
-    
 }
 }
 .left-arrow{
@@ -438,9 +437,13 @@ padding-bottom: 8px;
     display: none;
 }
 .smallscreenshow{
-    display: block;
-    
-    
-}.smallscreenhide{
-    display: none;
+    display: block; 
+}
+@media screen and (max-width: 768px) {
+    .smallscreenshow{
+        display: block; 
+    }
+    .smallscreenhide{
+        display: none;
+    }
 }
