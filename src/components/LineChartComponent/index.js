@@ -44,8 +44,6 @@ const yTicks = [0, 100, 200, 300, 400, 500];
 
 const screenWidth = window.innerWidth;
 
-const smallScreenBreakpoint = 768;
-
 let fontSize = screenWidth < 768 ? 10 : 14;
 
 class LineChartComponent extends PureComponent {

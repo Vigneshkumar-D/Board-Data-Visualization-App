@@ -22,11 +22,11 @@ class Login extends Component{
                         <p className="signin-with-google-apple">Sign in to your account</p>
                         <div className="account-container">
                             <div className="google-acc-container">
-                                <img className="google-image" src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692591910/OpeninApp%20Assignment/google-icon_1_jl6zcx.png" alt="Google Image" />
+                                <img className="google-image" src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692591910/OpeninApp%20Assignment/google-icon_1_jl6zcx.png" alt="Google" />
                                 <button className="google-title">Sign in with Google</button>
                             </div>
                             <div className="apple-acc-container">
-                                <img className="apple-image" src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692591910/OpeninApp%20Assignment/apple_1_eb8f2c.png" alt="Apple Image" />
+                                <img className="apple-image" src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692591910/OpeninApp%20Assignment/apple_1_eb8f2c.png" alt="Apple" />
                                 <button className="apple-title">Sign in with Apple</button>
                             </div>
                         </div>
@@ -43,8 +43,8 @@ class Login extends Component{
                             <button className="signin-button" type="submit">Sign In</button>
                         </form>
                         <div className="new-registration-container">
-                        <p className="new-reg-des">Don’t have an account?</p>
-                        <button className="registration-button" type="button">Register here</button>
+                            <p className="new-reg-des">Don’t have an account?</p>
+                            <button className="registration-button" type="button">Register here</button>
                         </div>
                         
                     </div>

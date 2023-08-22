@@ -1,4 +1,4 @@
-import React, { Component, PureComponent } from 'react';
+import React, { Component } from 'react';
 import LineChartContainer from '../LineChartComponent'
 import { FaGreaterThan } from "react-icons/fa6";
 import PieChartComponent from '../PieChartComponent'
@@ -54,7 +54,7 @@ render(){
                             <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607132/OpeninApp%20Assignment/Search_icon_rs9i6d.png" className='search-icon' alt="search icon" />
                         </div>
                         <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607241/OpeninApp%20Assignment/Vector_1_gyib1r.png" className='notification-icon' alt='notification icon' />
-                        <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607241/OpeninApp%20Assignment/Mask_Group_ny5ivl.png" className='profile-picture' alt='profile-picture' />
+                        <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607241/OpeninApp%20Assignment/Mask_Group_ny5ivl.png" className='profile' alt='profile pic' />
                     </div>
         
                 </div>
@@ -65,22 +65,22 @@ render(){
                 <div className='home-right-bottom-container'>
                     <div className='home-right-bottom-top-container'>
                         <div className='revenue-container'>
-                            <img className='revenue-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_2_zjhhtr.png" alt="revenue image" />
+                            <img className='revenue-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_2_zjhhtr.png" alt="revenue pic" />
                             <p className='revenue-title'>Total Revenue</p>
                             <h1 className='revenue'>$2,129,430</h1>
                         </div>
                         <div className='transaction-container'>
-                            <img className='transaction-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_3_oypd5c.png" alt="transaction image" />
+                            <img className='transaction-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_3_oypd5c.png" alt="transaction pic" />
                             <p className='transaction-title'>Total Revenue</p>
                             <h1 className='transaction'>1,520</h1>
                         </div>
                         <div className='likes-container'>
-                            <img className='likes-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_4_g52ws9.png" alt="likes image" />
+                            <img className='likes-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_4_g52ws9.png" alt="likes pic" />
                             <p className='likes-title'>Total Likes</p>
                             <h1 className='likes'>9,721</h1>
                         </div>
                         <div className='users-container'>
-                            <img className='users-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_5_miwkcb.png" alt="users image" />
+                            <img className='users-image' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692611849/OpeninApp%20Assignment/Vector_5_miwkcb.png" alt="users pic" />
                             <p className='users-title'>Total Users</p>
                             <h1 className='users'>892</h1>
                         </div>
