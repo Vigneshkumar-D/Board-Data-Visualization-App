@@ -1,0 +1,20 @@
+/* Apply styles for the chart container */
+.chart-container {
+    width: 100%;
+    /* max-width: 600px; Optional: Set a max width to prevent excessive scaling */
+    margin: 0 auto; /* Center the chart horizontally */
+  }
+  
+  /* Apply styles for the transparent padding element */
+  .padding-element {
+    height: 20px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    /* Apply responsive styling for smaller screens */
+    .chart-container {
+      max-width: 100%; /* Allow chart to take full width on smaller screens */
+    }
+  }
+  

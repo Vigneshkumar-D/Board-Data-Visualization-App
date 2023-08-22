@@ -1,0 +1,375 @@
+.login-container{
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login-container{
+        flex-direction: column;
+    }
+}
+
+.login-left-container-desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 35%;
+    background-color: #000000;
+}
+.login-left-container-mobile{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .login-left-container-desktop{
+        display: none;
+    }
+    .login-left-container-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 25vh;
+        background-color: #F5F5F5;
+    }
+}
+
+
+.app-title{
+    font-family: 'Arial' Sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .app-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        background-color: #000000;
+        border-radius: 50%;
+        width: 115px;
+        height: 115px;
+        margin: 0px;
+        text-align: center;
+    }
+}
+.login-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 65%;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width: 768px) {
+    .login-right-container{
+        justify-content: flex-start;
+        min-height: 75vh;
+        min-width: 100%;
+        padding: 7%;
+        padding-top: 4%;
+    
+    }
+}
+.login-right-sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 385px;
+}
+@media screen and (max-width: 768px) {
+    .login-right-sub-container{
+        width: 100%;
+    }
+}
+.signin-title{
+    font-family: 'Arial' Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+    .signin-title{
+        font-size: 26px;
+        text-align: center;
+        width: 100px;
+        align-self: center;
+    }
+}
+.signin-with-google-apple{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    
+}
+@media screen and (max-width: 768px) {
+    .signin-with-google-apple{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+.account-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .account-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+}
+.google-acc-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    width: 170px;
+    height: 33px;
+    top: 354px;
+    left: 832px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .google-acc-container{
+        width: 140px;
+        height: 33px;
+        top: 354px;
+        left: 832px;
+    }
+}
+.apple-acc-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    width: 170px;
+    height: 33px;
+    top: 354px;
+    left: 832px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .apple-acc-container{
+        width: 140px;
+        height: 33px;
+        top: 354px;
+        left: 832px;
+    }
+}
+.google-title, .apple-title{
+    background-color: transparent;
+    border: none;
+    font-family:  system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #858585;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .google-title, .apple-title{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+.google-image, .apple-image{
+    width: 14px;
+    height: 14px;
+    top: 362px;
+    left: 851px;
+
+}
+@media screen and (max-width: 768px) {
+    .google-image, .apple-image{
+        width: 12px;
+        height: 12px;
+    
+    }
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 385px;
+    height: 356px;
+    top: 409px;
+    left: 832px;
+    border-radius: 10px;
+    border: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .form-container{
+        width: 100%;
+        height: 100%;
+    }
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+@media screen and (max-width: 768px) {
+    .input-container{
+        padding-top: 18px;
+    }
+}
+.custom-label{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+    .custom-label{
+        font-size: 14px;
+    }
+}
+.custom-input{
+    width: 325px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: #F5F5F5;
+    padding-left: 15px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;   
+    color: #000000;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .custom-input{
+        width: 100%;
+        font-size: 14px;
+    }
+}
+.signin-button{
+    width: 325px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-family:  system-ui;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .signin-button{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+.new-registration-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.new-reg-des{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #858585;
+    margin: 0px;
+}
+.registration-button{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: #346BD5;
+    cursor: pointer;
+}
+.forget-password{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    color: #346BD5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .forget-password{
+        padding-top: 15px;
+        padding-bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+} 

@@ -1,0 +1,14 @@
+/* Adjust font size for small screens */
+@media screen and (max-width: 767px) {
+    .recharts-pie-label {
+      font-size: 10px; /* Apply the small font size */
+    }
+  }
+  
+  /* Adjust font size for larger screens */
+  @media screen and (min-width: 768px) {
+    .recharts-pie-label {
+      font-size: 14px; /* Apply the large font size */
+    }
+  }
+  
