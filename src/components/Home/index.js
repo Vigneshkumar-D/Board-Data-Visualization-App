@@ -53,12 +53,9 @@ render(){
                         <div className='search-container'>
                             <input type='search' className='search-input' placeholder='Search...' />
                             <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607132/OpeninApp%20Assignment/Search_icon_rs9i6d.png" className='search-icon' alt="search icon" />
-                        </div>
-                        {/* <div className='avatar-container'>                         */}
+                        </div>            
                         <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607241/OpeninApp%20Assignment/Vector_1_gyib1r.png" className='notification-icon' alt='notification icon' />
                         <img src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692607241/OpeninApp%20Assignment/Mask_Group_ny5ivl.png" className='profile' alt='profile pic' />
-                        {/* </div> */}
-
                     </div>
                 </div>
                 <div className='search-container-mobile'>
@@ -87,8 +84,6 @@ render(){
                             <p className='users-title'>Total Users</p>
                             <h1 className='users'>892</h1>
                         </div>
-                    
-
                     </div>
                     <div className='activity-container'>
                         <h1 className='activity-title'>Activity</h1>

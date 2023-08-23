@@ -61,6 +61,7 @@ const PieChartComponent = () => {
           layout="vertical"
           verticalAlign="middle"
           align='right'
+          // height={60}
         />
       </PieChart>
     </ResponsiveContainer>

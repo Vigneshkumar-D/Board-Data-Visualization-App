@@ -27,7 +27,6 @@
 .menu-item-container{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: center;
     text-align: left;
     width: 150px;
@@ -39,15 +38,14 @@
     left: 68px;
 }
 .menu-title, .menu-title-dashboard{
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #ffffff;
-padding-left: 20px;
-font-family: 'Arial' Sans-serif;
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 20px;
+    font-family: 'Arial' Sans-serif;
 }
 @media screen and (max-width: 768px) {
     .menu-title, .menu-title-dashboard{
@@ -60,26 +58,23 @@ font-family: 'Arial' Sans-serif;
 .home-left-bottom-container{
     display: flex;
     flex-direction: column;
-    /* padding-bottom: 2%; */
     height: 20%;
 }
 @media screen and (max-width: 768px) {
     .home-left-bottom-container{
-       padding-left: 10%;
-       /* align-self: flex-end; */
+        padding-left: 10%;
     }
 }
 .help-title, .contact-title{
-font-size: 16px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
 }
 @media screen and (max-width: 768px) {
     .help-title, .contact-title{
         font-size: 14px;
-        
-        }
+    }
 }
