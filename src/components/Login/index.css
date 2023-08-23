@@ -373,3 +373,11 @@
         font-size: 14px;
     }
 } 
+.home-link{
+    text-decoration: none;
+    color: #000000;
+    /* align-self: flex-end; */
+    padding-top: 10px;
+    font-size: 14px;
+    /* margin-top: 10%; */
+}

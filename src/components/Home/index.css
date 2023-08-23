@@ -447,3 +447,10 @@ padding-bottom: 8px;
         display: none;
     }
 }
+.login-link{
+    text-decoration: none;
+    align-self: flex-end;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}

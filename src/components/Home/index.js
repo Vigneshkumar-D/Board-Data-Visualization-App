@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import LineChartContainer from '../LineChartComponent'
 import { FaGreaterThan } from "react-icons/fa6";
 import PieChartComponent from '../PieChartComponent'
@@ -122,9 +123,9 @@ render(){
                                     <p className='schedule-time'>18.00-20.00</p>
                                     <p className='location'>at Central Jakarta </p>
                                 </div>
-                            
                         </div> 
                     </div>
+                    <Link className="login-link" to='/login'>Login</Link> 
                 </div>
             </div>
         </div>

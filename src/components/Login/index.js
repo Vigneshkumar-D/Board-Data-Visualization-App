@@ -1,5 +1,7 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import './index.css'
+
 
 
 class Login extends Component{
@@ -46,9 +48,11 @@ class Login extends Component{
                             <p className="new-reg-des">Don’t have an account?</p>
                             <button className="registration-button" type="button">Register here</button>
                         </div>
-                        
+                      
                     </div>
+                    <Link className="home-link" to='/'>Home</Link> 
                 </div>
+                
             </div>
         )
     }
